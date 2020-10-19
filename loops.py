@@ -1,0 +1,6 @@
+for i in range(10):
+    for j in range(10):
+        print(j, end=" ")
+        if j == i:
+            break
+    print()
