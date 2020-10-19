@@ -7,7 +7,7 @@ encrypted_text = ''
 # In the loop we iterate over each
 for character in original_text:
 
-    if 'A' <= character <='Z':  # condition a < x <b is the same as: a < x and x < b
+    if 'A' <= character <= 'Z':  # condition a < x <b is the same as: a < x and x < b
         # We have a capital letter; we calculate its sequence number
         # (so that the letter "A" corresponds to 0)
         code = ord(character) - ord('A')
